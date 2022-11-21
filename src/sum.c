@@ -25,7 +25,6 @@ else  {
   return sumtail(n-1, n+total); // tail-recursive kald
 }
 }
-
 int sumwhile (int n) //while loop version
 {
     int sum = 0;
