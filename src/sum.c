@@ -15,7 +15,6 @@ int sum (int n)
     return 1;
 }
 
-/* Sum integers 1 to n */
 int sumtail (int n, int total) // tail-recursive version
 {
 assert(n>=1); // pre-condition
@@ -23,11 +22,10 @@ if (n==1){
   return 1 + total;
 }
 else  {
-  return sumtail(n-1, n+total); // tail-recursive call
+  return sumtail(n-1, n+total); // tail-recursive kald
 }
 }
 
-/* Sum integers 1 to n */
 int sumwhile (int n) //while loop version
 {
     int sum = 0;
